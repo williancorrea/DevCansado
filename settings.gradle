@@ -1,0 +1,9 @@
+rootProject.name = 'NomeLegal'
+
+//include("dev")
+//include("library")
+
+include ":backend",
+        ":backend:library",
+        ":frontend",
+        ":dev"

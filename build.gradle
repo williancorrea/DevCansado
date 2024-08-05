@@ -1,0 +1,27 @@
+plugins {
+    id 'base'
+    id 'java'
+}
+
+group = 'br.com.nomelegal'
+version = '0.0.1'
+
+allprojects {
+    version '1.0.0'
+}
+
+sourceCompatibility = '22'
+targetCompatibility = '22'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(22)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
