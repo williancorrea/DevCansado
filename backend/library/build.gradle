@@ -2,22 +2,20 @@ plugins {
     id 'java'
 }
 
-group = 'br.com.devcansado.backend.library'
+group = "br.com.devcansado.backend.library"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitJupiterApi}"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitJupiterEngine}"
 
-    //TODO: Verificar o pq as dependencias não estão sendo herdadas do projeto backend
-//    implementation project(':backend')
-//    testImplementation project(':backend')
-
-//    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-//    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    compileOnly "org.projectlombok:lombok:${lombok}"
+    annotationProcessor "org.projectlombok:lombok:${lombok}"
+    testCompileOnly "org.projectlombok:lombok:${lombok}"
+    testAnnotationProcessor "org.projectlombok:lombok:${lombok}"
 }
 
 test {

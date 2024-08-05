@@ -1,17 +1,18 @@
 plugins {
-    id 'base'
-    id 'java'
+    id "base"
+    id "java"
+//    id 'java-library'
 }
 
-group = 'br.com.devcansado'
-version = '0.0.1'
+group = "br.com.devcansado"
+version = "0.0.1"
 
 allprojects {
-    version '1.0.0'
+    version "1.0.0"
 }
 
-sourceCompatibility = '22'
-targetCompatibility = '22'
+sourceCompatibility = "22"
+targetCompatibility = "22"
 
 java {
     toolchain {
