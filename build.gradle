@@ -3,7 +3,7 @@ plugins {
     id 'java'
 }
 
-group = 'br.com.nomelegal'
+group = 'br.com.devcansado'
 version = '0.0.1'
 
 allprojects {

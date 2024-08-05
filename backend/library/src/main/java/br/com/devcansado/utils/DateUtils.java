@@ -1,4 +1,4 @@
-package br.com.nomelegal.utils;
+package br.com.devcansado.utils;
 
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;

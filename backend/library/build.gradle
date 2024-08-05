@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'br.com.nomelegal.backend.library'
+group = 'br.com.devcansado.backend.library'
 
 repositories {
     mavenCentral()
