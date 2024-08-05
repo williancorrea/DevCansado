@@ -1,8 +1,5 @@
 rootProject.name = 'DevCansado'
 
-//include("dev")
-//include("library")
-
 include ":backend",
         ":backend:library",
         ":backend:finance",
